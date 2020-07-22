@@ -42,46 +42,7 @@ Options:
 Documentation can be found at https://github.com/IonicaBizau/set-creation-date-cli#readme.
 ```
 
-## :clipboard: Example
 
-
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
-
-```sh
-# Using npm
-npm install --save set-creation-date-cli
-
-# Using yarn
-yarn add set-creation-date-cli
-```
-
-
-
-```js
-const setCreationDateCli = require("set-creation-date-cli");
-
-console.log(setCreationDateCli());
-```
-
-
-
-
-
-## :question: Get Help
-
-There are few ways to get help:
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
-
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
-
-
-## :memo: Documentation
-
-For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
