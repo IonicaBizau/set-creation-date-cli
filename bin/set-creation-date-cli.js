@@ -2,7 +2,6 @@
 "use strict";
 
 const Tilda = require("tilda")
-    , setCreationDateCli = require("..")
     , util = require("util")
     , glob = util.promisify(require("glob"))
     , Utimes = require('@ronomon/utimes')
