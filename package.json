@@ -1,0 +1,51 @@
+{
+  "name": "set-creation-date-cli",
+  "description": "Change the creation date of multiple files to be their last modified time.",
+  "keywords": [
+    "set",
+    "creation",
+    "date",
+    "cli",
+    "change",
+    "the",
+    "of",
+    "multiple",
+    "files",
+    "to",
+    "be",
+    "their",
+    "last",
+    "modified",
+    "time"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "homepage": "https://github.com/IonicaBizau/set-creation-date-cli#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/set-creation-date-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/set-creation-date-cli/issues"
+  }
+}
