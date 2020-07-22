@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "set-creation-date-cli": "bin/set-creation-date-cli.js"
+  },
   "name": "set-creation-date-cli",
   "description": "Change the creation date of multiple files to be their last modified time.",
   "keywords": [
@@ -47,5 +50,11 @@
   },
   "bugs": {
     "url": "https://github.com/IonicaBizau/set-creation-date-cli/issues"
+  },
+  "dependencies": {
+    "@ronomon/utimes": "^2.3.1",
+    "get-exif": "^1.0.3",
+    "modify-exif": "0.0.1",
+    "tilda": "^4.4.15"
   }
 }
