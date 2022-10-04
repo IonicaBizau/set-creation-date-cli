@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const Tilda = require("tilda")
+const tilda = require("tilda")
     , util = require("util")
     , glob = util.promisify(require("glob"))
     , Utimes = require('@ronomon/utimes')
@@ -9,7 +9,7 @@ const Tilda = require("tilda")
     , fs = require("fs").promises
     ;
 
-new Tilda(`${__dirname}/../package.json`, {
+new tilda(`${__dirname}/../package.json`, {
     options: [
         {
             name: "verbose"
